@@ -1,5 +1,5 @@
-import type Channel from './Channel.d'
-import type Thumbnail from './Thumbnail.d'
+import type Channel from './Channel'
+import type Thumbnail from './Thumbnail'
 
 export default interface YouTubeVideo {
   id: string

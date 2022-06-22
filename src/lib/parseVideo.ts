@@ -1,8 +1,14 @@
-import type VideoResponseData from '../types/videoResponseData.d'
-import type Thumbnail from '../types/Thumbnail.d'
-import type YouTubeVideo from './../types/YoutubeVideo.d'
+import type VideoResponseData from '../types/VideoResponseData'
+import type Thumbnail from '../types/Thumbnail'
+import type YouTubeVideo from './../types/YoutubeVideo'
 import parseDuration from './parseDuration.js'
 
+/**
+ * Parse a YouTube video object.
+ *
+ * @param videoData Video data from YouTube.
+ * @returns Parsed YouTube video.
+ */
 const parseVideo = (videoData: VideoResponseData): YouTubeVideo => {
   // Parse video data.
   const id = videoData.videoId

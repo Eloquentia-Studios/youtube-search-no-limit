@@ -1,4 +1,4 @@
-import type Thumbnail from './Thumbnail.d'
+import type Thumbnail from './Thumbnail'
 
 export default interface Channel {
   name: string

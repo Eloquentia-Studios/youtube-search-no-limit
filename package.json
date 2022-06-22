@@ -2,13 +2,14 @@
   "name": "youtube-search-no-limit",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "type": "module",
   "scripts": {
     "watch": "tsc --watch",
     "build": "tsc",
     "start": "node ./dist/index.js",
-    "dev": "nodemon ./dist/index.js"
+    "dev": "nodemon ./dist/index.js",
+    "prepublish": "tsc"
   },
   "keywords": [],
   "author": "",

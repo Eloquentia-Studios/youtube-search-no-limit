@@ -1,4 +1,4 @@
-import type VideoResponseData from '../types/videoResponseData.d'
+import type VideoResponseData from '../types/VideoResponseData'
 
 /**
  * Extract only video data from ytInitialData.
