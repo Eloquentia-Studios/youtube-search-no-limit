@@ -9,7 +9,7 @@
     "build": "tsc",
     "start": "node ./dist/index.js",
     "dev": "nodemon ./dist/index.js",
-    "prepublish": "tsc"
+    "prepublish": "npx rimraf -f dist && tsc"
   },
   "keywords": [],
   "author": "",
